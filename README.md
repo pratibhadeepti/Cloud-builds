@@ -1,4 +1,5 @@
-# Google Cloud Build official builder images
+## Google Cloud Build builder images with Gradle 5.1 and java 11 support 
+
 
 This repository contains source code for official builders used with the [Google
 Cloud Build API](https://cloud.google.com/cloud-build/docs/).
@@ -30,3 +31,13 @@ If you are experiencing an issue with the Cloud Build service or
 have a feature request, e-mail google-cloud-dev@googlegroups.com
 or see our [Getting support](https://cloud.google.com/cloud-build/docs/getting-support)
 documentation.
+ ```cd javac
+ gcloud builds submit .
+cd ../gradle
+gcloud builds submit .
+```
+Images can be found in container registry and can be used for building the code like
+```steps:
+- name: 'gcr.io/$PROJECT_ID/gradle:latest'
+  args: ['build']
+```
