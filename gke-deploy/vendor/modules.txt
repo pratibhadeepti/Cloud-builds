@@ -1,4 +1,4 @@
-# github.com/gogo/protobuf v1.2.1
+# github.com/gogo/protobuf v1.3.2
 github.com/gogo/protobuf/proto
 github.com/gogo/protobuf/sortkeys
 # github.com/google/go-containerregistry v0.0.0-20190717132004-e8c6a4993fa7
