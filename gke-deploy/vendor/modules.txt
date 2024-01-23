@@ -26,14 +26,14 @@ github.com/modern-go/reflect2
 github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.3
 github.com/spf13/pflag
-# golang.org/x/net v0.9.0
+# golang.org/x/net v0.17.0
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
 # golang.org/x/sync v0.1.0
 golang.org/x/sync/errgroup
-# golang.org/x/text v0.9.0
+# golang.org/x/text v0.13.0
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
